@@ -8,9 +8,8 @@ import dev.langchain4j.service.spring.AiService;
 public interface AgroSmartAIService {
 
     @UserMessage("""
-            Genera una frase publicitaria breve y atractiva para el producto agrícola
-            {{producto}}, dirigida a {{audiencia}}.
-            La respuesta debe tener como máximo 30 palabras.
+            Redacta una frase publicitaria de máximo 100 caracteres para vender \
+            {{producto}} dirigido a {{audiencia}}.
             """)
     String generarPublicidad(
             @V("producto") String producto,
