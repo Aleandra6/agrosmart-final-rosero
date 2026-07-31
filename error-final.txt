@@ -1,0 +1,76 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName UP-TO-DATE
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-07-30T22:37:40.232-05:00  INFO 25572 --- [agrosmart] [           main] e.e.espe.agrosmart.AgrosmartApplication  : Starting AgrosmartApplication using Java 21.0.10 with PID 25572 (C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build\classes\java\main started by Det-Pc in C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero)
+2026-07-30T22:37:40.235-05:00  INFO 25572 --- [agrosmart] [           main] e.e.espe.agrosmart.AgrosmartApplication  : The following 1 profile is active: "prod"
+2026-07-30T22:37:40.312-05:00  INFO 25572 --- [agrosmart] [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\compose.yaml
+2026-07-30T22:37:40.676-05:00 ERROR 25572 --- [agrosmart] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.boot.docker.compose.core.ProcessExitException: 'docker version --format {{.Client.Version}}' failed with exit code 1.
+
+Stdout:
+29.4.3
+
+
+Stderr:
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:97) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:75) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.getDockerCommand(DockerCli.java:146) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.<init>(DockerCli.java:140) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.core.DockerCli.lambda$new$0(DockerCli.java:66) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228) ~[na:na]
+	at org.springframework.boot.docker.compose.core.DockerCli.<init>(DockerCli.java:65) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.core.DockerCompose.get(DockerCompose.java:145) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.getDockerCompose(DockerComposeLifecycleManager.java:166) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:114) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35) ~[spring-boot-docker-compose-3.5.16.jar:3.5.16]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.19.jar:6.2.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.19.jar:6.2.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.19.jar:6.2.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138) ~[spring-context-6.2.19.jar:6.2.19]
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:98) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$4(SpringApplicationRunListeners.java:72) ~[spring-boot-3.5.16.jar:3.5.16]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:72) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:416) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.16.jar:3.5.16]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.16.jar:3.5.16]
+	at ec.edu.espe.agrosmart.AgrosmartApplication.main(AgrosmartApplication.java:10) ~[main/:na]
+
+
+> Task :bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun' (registered by plugin 'org.springframework.boot').
+> Process 'command 'C:\Program Files\Java\jdk-21.0.10\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+4 actionable tasks: 1 executed, 3 up-to-date

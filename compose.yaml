@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: agrosmart-postgres
+    environment:
+      POSTGRES_DB: agrosmart_db
+      POSTGRES_USER: agrosmart
+      POSTGRES_PASSWORD: agrosmart
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "55432:5432"
