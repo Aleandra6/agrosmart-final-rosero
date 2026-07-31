@@ -1,0 +1,260 @@
+Initialized native services in: C:\Users\Det-Pc\.gradle\native
+Initialized jansi services in: C:\Users\Det-Pc\.gradle\native
+The client will now receive all logging from the daemon (pid: 10604). The daemon log file: C:\Users\Det-Pc\.gradle\daemon\9.5.1\daemon-10604.out.log
+Starting 5th build in daemon [uptime: 27 mins 0.571 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 23% of 384 MiB]
+Using 16 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, resilientModelBuilding=false}
+Now considering [C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\settings.gradle'.
+Projects loaded. Root project using build file 'C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build.gradle'.
+Included projects: [root project 'agrosmart']
+
+> Configure project :
+Evaluating root project 'agrosmart' using build file 'C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '4.1.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'agrosmart'
+Applying dependency management to configuration 'apiElements' in project 'agrosmart'
+Applying dependency management to configuration 'archives' in project 'agrosmart'
+Applying dependency management to configuration 'bootArchives' in project 'agrosmart'
+Applying dependency management to configuration 'compileClasspath' in project 'agrosmart'
+Applying dependency management to configuration 'compileOnly' in project 'agrosmart'
+Applying dependency management to configuration 'default' in project 'agrosmart'
+Applying dependency management to configuration 'developmentOnly' in project 'agrosmart'
+Applying dependency management to configuration 'implementation' in project 'agrosmart'
+Applying dependency management to configuration 'mainSourceElements' in project 'agrosmart'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'agrosmart'
+Applying dependency management to configuration 'runtimeClasspath' in project 'agrosmart'
+Applying dependency management to configuration 'runtimeElements' in project 'agrosmart'
+Applying dependency management to configuration 'runtimeOnly' in project 'agrosmart'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'agrosmart'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'agrosmart'
+Applying dependency management to configuration 'testCompileClasspath' in project 'agrosmart'
+Applying dependency management to configuration 'testCompileOnly' in project 'agrosmart'
+Applying dependency management to configuration 'testImplementation' in project 'agrosmart'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'agrosmart'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'agrosmart'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'agrosmart'
+All projects evaluated.
+Task name matched 'bootRun'
+Selected primary task 'bootRun' from project :
+Resolving global dependency management for project 'agrosmart'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':resolveMainClassName', task ':bootRun']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#388,Execution worker,5,main]) started.
+:compileJava (Thread[#396,Execution worker Thread 9,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Custom actions are attached to task ':compileJava'.
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :processResources (Thread[#396,Execution worker Thread 9,5,main]) started.
+:processResources (Thread[#396,Execution worker Thread 9,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#396,Execution worker Thread 9,5,main]) started.
+:classes (Thread[#396,Execution worker Thread 9,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :resolveMainClassName (Thread[#396,Execution worker Thread 9,5,main]) started.
+:resolveMainClassName (Thread[#396,Execution worker Thread 9,5,main]) started.
+
+> Task :resolveMainClassName UP-TO-DATE
+Caching disabled for task ':resolveMainClassName' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':resolveMainClassName' as it is up-to-date.
+Resolve mutations for :bootRun (Thread[#396,Execution worker Thread 9,5,main]) started.
+:bootRun (Thread[#396,Execution worker Thread 9,5,main]) started.
+
+> Task :bootRun
+Caching disabled for task ':bootRun' because:
+  Build cache is disabled
+Task ':bootRun' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Starting process 'command 'C:\Program Files\Java\jdk-21.0.10\bin\java.exe''. Working directory: C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero Command: C:\Program Files\Java\jdk-21.0.10\bin\java.exe -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Duser.country=EC -Duser.language=es -Duser.variant -cp C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build\classes\java\main;C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build\resources\main;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-docker-compose\4.1.0\ed8f05c8a593b1a498d16f873de5a7a99f638072\spring-boot-docker-compose-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.postgresql\postgresql\42.7.11\4c21cdd1b3938f400703716d37c4e8ca4d332808\postgresql-42.7.11.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\tools.jackson.core\jackson-core\3.1.4\f9fd39204bd3d4922b42f6a54b81f46bd8ed575a\jackson-core-3.1.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jackson\4.1.0\bada14f54b1961279f9942c54b5039c90cd6a252\spring-boot-jackson-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\tools.jackson.core\jackson-databind\3.1.4\c7be3c757289893a791b2a4967ec09d1a8b6c576\jackson-databind-3.1.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\4.1.0\a921df4e39389e43dacac5615a1185708ee8a960\spring-boot-autoconfigure-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-data-jpa\4.1.0\d29dbdc6734afe2f4d5c56cf3112c491c3582642\spring-boot-data-jpa-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-hibernate\4.1.0\af702315125871004a8a7df290f55ac5e5617d91\spring-boot-hibernate-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jpa\4.1.0\bf645cdf194c71f829225793a5d6545d9dfe96ae\spring-boot-jpa-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-jdbc\4.1.0\71f00c6af0ae910530d9fce8f5ae6e54c595f690\spring-boot-jdbc-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-validation\4.1.0\fcd0b07c0c7e29f42e495f91710154dbc81d2c8c\spring-boot-validation-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-reactor\4.1.0\ee027263323ff1b7bc31c41b83d5ae3082a9567c\spring-boot-reactor-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-webflux\4.1.0\b0531019cdee402478cddbb81e2e649165a9d048\spring-boot-webflux-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.21\b1bc1868bf02dc0bd6c7836257a036a331005309\jackson-annotations-2.21.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-data-commons\4.1.0\3d587cffcde8c18fa784e0486a2c0a8a4728f262\spring-boot-data-commons-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-sql\4.1.0\7a5ef86020d10e926b2e98e1d7b4b79258fb2f38\spring-boot-sql-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-transaction\4.1.0\93b102fb7c2eb6558b8e52fb24f1152c837db3f6\spring-boot-transaction-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-reactor-netty\4.1.0\804e0b638828c5600610ba57d3cffb7b1453a1d9\spring-boot-reactor-netty-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-web-server\4.1.0\e67513b382c2cef7b8bc364e8e85cd7f0940e331\spring-boot-web-server-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-http-codec\4.1.0\d354a7a7b476b687f3cb4ee5452efb3457b446cd\spring-boot-http-codec-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-persistence\4.1.0\12b6d5aa8a97c458a5c8eba8e8cb0e38e326d9d8\spring-boot-persistence-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-netty\4.1.0\b570590821eda412d77a1f815007037c6652dc7e\spring-boot-netty-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\4.1.0\bcf26d4c27ab080ef60c13220e96a37d687f9e26\spring-boot-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-jpa\4.1.0\6387c88a4a9637f129e0ebcad50ada478ad01c3f\spring-data-jpa-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.annotation\jakarta.annotation-api\3.0.0\54f928fadec906a99d558536756d171917b9d936\jakarta.annotation-api-3.0.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\2.6\2bc14918a2f8d5414749ab12d0c590cd3198b8c1\snakeyaml-2.6.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.hibernate.orm\hibernate-core\7.4.1.Final\b405096e4aa04ff9c99a3e6e632eb2b8d252e1f1\hibernate-core-7.4.1.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\7.0.2\c2b43c946b86a14a96342379e22b004c56c6166d\HikariCP-7.0.2.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aspects\7.0.8\daf535194ee6cd1e1e23c7368c58b5f02fe18f65\spring-aspects-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-orm\7.0.8\8c40fad8ecc72337353818da54ef2d104b3fa7a9\spring-orm-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jdbc\7.0.8\f979da380cd01fd363510ca98a7f544d1959a914\spring-jdbc-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\11.0.22\db92447e16c3561e9ca7bf9311b6b6389816699e\tomcat-embed-el-11.0.22.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\9.1.0.Final\53505ad984428ab42b4a4f3456aab9ec343bf2f2\hibernate-validator-9.1.0.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webflux\7.0.8\2b0d4cbfdf7de4fec2d2113b8ff29c23eea225cb\spring-webflux-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.projectreactor.netty\reactor-netty-http\1.3.6\fc29755df1a749bb639e99c9d9eb21f083940b64\reactor-netty-http-1.3.6.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.projectreactor.netty\reactor-netty-core\1.3.6\f3dd398789a99982ee3cb4c9a29c31b689173313\reactor-netty-core-1.3.6.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.projectreactor\reactor-core\3.8.6\76285d63d5da4ed8679357628dd5309b0feb77ff\reactor-core-3.8.6.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\7.0.8\6c58b590fd8d71afc36797cf6555e82500f1eb64\spring-context-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-commons\4.1.0\e8d1077d09c20e9ecf3574a72ce5cc90a29b902a\spring-data-commons-4.1.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\7.0.8\b73e58e9b7dbc4db6b4ebbe3336be0e901b0d261\spring-aop-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-tx\7.0.8\96c66acfb3920457421a9cb3648a32e62f42f815\spring-tx-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\7.0.8\d7cddac31ee023d25d37f48e2ff0e168cf635c14\spring-web-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\7.0.8\829cdf4c82a9409e0e10922b9e57e2ef12d5f04d\spring-beans-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\7.0.8\bb844eefd513820e356b575d7ea0f7084147af59\spring-expression-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\7.0.8\25f5ebd179f92d7d12779e3761c96da4b0109ad\spring-core-7.0.8.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.5.34\e598899bad5824511cd3019299254230468e1fa2\logback-classic-1.5.34.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.25.4\68df56640a5d245192e91bd2ac89e504b477cc10\log4j-to-slf4j-2.25.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\2.0.18\79739c98001d5c9d078d087d5a348ec9e474ec8f\jul-to-slf4j-2.0.18.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.18\78a9e7a37cd6360e0b818e86341b24123d28d4df\slf4j-api-2.0.18.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.2\fc3db6d844df652a3d5db31c87fa12757f13691d\antlr4-runtime-4.13.2.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.9.25.1\a713c790da4d794c7dfb542b550d4e44898d5e23\aspectjweaver-1.9.25.1.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.validation\jakarta.validation-api\3.1.1\ec8622148afc5564235d17af80ea80288d0e7f92\jakarta.validation-api-3.1.1.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.hibernate.models\hibernate-models\1.1.1\c890a4cc781fd8720e0e2613b4a24b33cdaa80a1\hibernate-models-1.1.1.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.6.3.Final\1cc9f976725720bb4a66f80af3e3aa6b9890d969\jboss-logging-3.6.3.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.7.3\f61c7e7b81e9249b0f6a05914eff9d54fb09f4a0\classmate-1.7.3.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.4\3864a1320d97d7b045f729a326e1e077661f31b7\reactive-streams-1.0.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-observation\1.17.0\2037bdaeb5725bdddb2390cbf93be3c19f8b8b48\micrometer-observation-1.17.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-commons\1.17.0\2edbb561cdd2b2777fbcd83aa9f2204ebabf592b\micrometer-commons-1.17.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.jspecify\jspecify\1.0.0\7425a601c1c7ec76645a78d22b8c6a627edee507\jspecify-1.0.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.3.6\63e78ca6cd446c0ad166d14f03ed99e7efb3896d\commons-logging-1.3.6.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.5.34\378692f76c337b3325c15bffb89e013dc1f897b4\logback-core-1.5.34.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.25.4\89ff2217b193fb187b134aa6ebcbfa8a28b018a9\log4j-api-2.25.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.persistence\jakarta.persistence-api\3.2.0\bb75a113f3fa191c2c7ee7b206d8e674251b3129\jakarta.persistence-api-3.2.0.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.18.10\5b34812ced047973a6d42654d50c3b69124ce587\byte-buddy-1.18.10.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\4.0.9\500c199572538675d2819c938fbafe34935d8d6b\jaxb-runtime-4.0.9.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-core\4.0.9\3f32ec949d109d666fa30994223d1c25a47b105f\jaxb-core-4.0.9.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\4.0.5\161811f36cad3c65991502e80317f2f6703361df\jakarta.xml.bind-api-4.0.5.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.inject\jakarta.inject-api\2.0.1\4c28afe1991a941d7702fe1362c365f0a8641d1e\jakarta.inject-api-2.0.1.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.transaction\jakarta.transaction-api\2.0.1\51a520e3fae406abb84e2e1148e6746ce3f80a1a\jakarta.transaction-api-2.0.1.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.2.15.Final\c70540243427c8c952473f55813c6d459817de42\netty-codec-http2-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http3\4.2.15.Final\39c3e24013ecb21832aebb36609de45c5cb111cd\netty-codec-http3-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.2.15.Final\31e63e04af11da75793ecbfc126d7691b8771d01\netty-handler-proxy-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.2.15.Final\e611826aa054371bb9a17f27bdb05755a4cac5f0\netty-codec-http-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns-native-macos\4.2.15.Final\65b613177fd074641b1effa2e5ee41af4d60c751\netty-resolver-dns-native-macos-4.2.15.Final-osx-x86_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns-classes-macos\4.2.15.Final\f1aaeafaf3fc1f1f972b27f3728fd6382edfaade\netty-resolver-dns-classes-macos-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns\4.2.15.Final\1b3eaebe62b905c780e181b5f3fd18c013ca73a4\netty-resolver-dns-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.2.15.Final\ce256127f8ed3f076756f1f4dcb5877d65d1f1c2\netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-compression\4.2.15.Final\89fc4a20b7ae6af974304b1695405e62c4f9b16d\netty-codec-compression-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-native-quic\4.2.15.Final\85505bf360eb6b1bdea085dd812138c8657446e8\netty-codec-native-quic-4.2.15.Final-linux-x86_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-native-quic\4.2.15.Final\e0c842516134e72f462d88637df30989f0e55a7b\netty-codec-native-quic-4.2.15.Final-linux-aarch_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-native-quic\4.2.15.Final\65e70a2bc3f595b6310d44f1f5a06c9992bca44e\netty-codec-native-quic-4.2.15.Final-osx-x86_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-native-quic\4.2.15.Final\7838c59515f0df3beea238f4a6112518a69708c4\netty-codec-native-quic-4.2.15.Final-osx-aarch_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-native-quic\4.2.15.Final\73a7f8cc37fa82f1d1c6f97b58eae2a6d68e11fa\netty-codec-native-quic-4.2.15.Final-windows-x86_64.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-classes-quic\4.2.15.Final\4268161f4676c79e657eda74141c309aaaa2c9a7\netty-codec-classes-quic-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.2.15.Final\d5344afd1148e3b9927a74be019605ebb0937a93\netty-handler-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-dns\4.2.15.Final\3da23523d91eaf8af81d2b9080a61d9b1af0762c\netty-codec-dns-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.2.15.Final\5d6dc38231104f28b6ba48b77d2f90b93cdb6fe7\netty-codec-socks-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-base\4.2.15.Final\e97149fdd5fb04858efa90e314651c8d700dc68b\netty-codec-base-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.2.15.Final\44bafba9c9993800e955b365bba4981326f3f3b1\netty-transport-classes-epoll-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.2.15.Final\efb6943b4de9e0226a5ac35330f232605424af02\netty-transport-native-unix-common-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.2.15.Final\a000c3a6196ee40207b73ac619dcb339409dd62f\netty-transport-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.2.15.Final\2beb620803bf871cda2dd5d46b8f831e8015dd34\netty-buffer-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.2.15.Final\b961a16d379b508b473e064ba06842bba280f4e3\netty-resolver-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.2.15.Final\7222492c1af9c2d4d78d521eea340a619e242fda\netty-common-4.2.15.Final.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.eclipse.angus\angus-activation\2.0.3\7f80607ea5014fef0b1779e6c33d63a88a45a563\angus-activation-2.0.3.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\2.1.4\9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8\jakarta.activation-api-2.1.4.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\4.0.9\70325ebdebca3e7aae1dfa395fd41fc25d8a6f4e\txw2-4.0.9.jar;C:\Users\Det-Pc\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\4.1.2\18ec117c85f3ba0ac65409136afa8e42bc74e739\istack-commons-runtime-4.1.2.jar ec.edu.espe.agrosmart.AgrosmartApplication
+Successfully started process 'command 'C:\Program Files\Java\jdk-21.0.10\bin\java.exe''
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-30T21:45:23.076-05:00  INFO 11792 --- [agrosmart] [           main] e.e.espe.agrosmart.AgrosmartApplication  : Starting AgrosmartApplication using Java 21.0.10 with PID 11792 (C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\build\classes\java\main started by Det-Pc in C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero)
+2026-07-30T21:45:23.080-05:00  INFO 11792 --- [agrosmart] [           main] e.e.espe.agrosmart.AgrosmartApplication  : The following 1 profile is active: "prod"
+2026-07-30T21:45:23.173-05:00  INFO 11792 --- [agrosmart] [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero\compose.yaml
+2026-07-30T21:45:24.668-05:00  INFO 11792 --- [agrosmart] [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container agrosmart-postgres Starting 
+2026-07-30T21:45:25.001-05:00  INFO 11792 --- [agrosmart] [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container agrosmart-postgres Started 
+2026-07-30T21:45:25.001-05:00  INFO 11792 --- [agrosmart] [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container agrosmart-postgres Waiting 
+2026-07-30T21:45:25.511-05:00  INFO 11792 --- [agrosmart] [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container agrosmart-postgres Healthy 
+2026-07-30T21:45:26.895-05:00  INFO 11792 --- [agrosmart] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-30T21:45:26.924-05:00  INFO 11792 --- [agrosmart] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2026-07-30T21:45:27.721-05:00  INFO 11792 --- [agrosmart] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-30T21:45:27.802-05:00  INFO 11792 --- [agrosmart] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-30T21:45:28.632-05:00  INFO 11792 --- [agrosmart] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-30T21:45:28.684-05:00  INFO 11792 --- [agrosmart] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-30T21:45:29.846-05:00  WARN 11792 --- [agrosmart] [           main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 28000
+2026-07-30T21:45:29.846-05:00  WARN 11792 --- [agrosmart] [           main] org.hibernate.orm.jdbc.error             : FATAL: no hay una l�nea en pg_hba.conf para �127.0.0.1�, usuario �agrosmart�, base de datos �agrosmart_db�, sin cifrado
+2026-07-30T21:45:29.848-05:00  WARN 11792 --- [agrosmart] [           main] org.hibernate.orm.jdbc                   : HHH100046: Could not obtain connection to query JDBC database metadata
+
+org.hibernate.exception.AuthException: Unable to obtain isolated JDBC connection [FATAL: no hay una l�nea en pg_hba.conf para �127.0.0.1�, usuario �agrosmart�, base de datos �agrosmart_db�, sin cifrado] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:87) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:180) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1388) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1468) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1450) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:69) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at ec.edu.espe.agrosmart.AgrosmartApplication.main(AgrosmartApplication.java:10) ~[main/:na]
+Caused by: org.postgresql.util.PSQLException: FATAL: no hay una l�nea en pg_hba.conf para �127.0.0.1�, usuario �agrosmart�, base de datos �agrosmart_db�, sin cifrado
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:835) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:307) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.11.jar:42.7.11]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.11.jar:42.7.11]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:149) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	... 37 common frames omitted
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no hay una l�nea en pg_hba.conf para �127.0.0.1�, usuario �agrosmart�, base de datos �agrosmart_db�, sin cifrado
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:835) ~[postgresql-42.7.11.jar:42.7.11]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:307) ~[postgresql-42.7.11.jar:42.7.11]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnectWithoutSsl(ConnectionFactoryImpl.java:145) ~[postgresql-42.7.11.jar:42.7.11]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:369) ~[postgresql-42.7.11.jar:42.7.11]
+		... 51 common frames omitted
+
+2026-07-30T21:45:29.858-05:00 ERROR 11792 --- [agrosmart] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-07-30T21:45:29.859-05:00  WARN 11792 --- [agrosmart] [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-07-30T21:45:29.870-05:00  INFO 11792 --- [agrosmart] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-30T21:45:29.896-05:00 ERROR 11792 --- [agrosmart] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:69) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at ec.edu.espe.agrosmart.AgrosmartApplication.main(AgrosmartApplication.java:10) ~[main/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:180) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1388) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1468) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1450) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260) ~[hibernate-core-7.4.1.Final.jar:7.4.1.Final]
+	... 31 common frames omitted
+
+
+> Task :bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun' (registered by plugin 'org.springframework.boot').
+> Process 'command 'C:\Program Files\Java\jdk-21.0.10\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 11s
+4 actionable tasks: 1 executed, 3 up-to-date
+Watched directory hierarchies: [C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero]
