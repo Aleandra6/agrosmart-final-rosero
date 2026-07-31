@@ -375,66 +375,21 @@ respuesta que produjo tu `onErrorResume`.
 **6.1** Pega la salida real de tus cuatro `curl`.
 
 ```
-GET /api/productos
-StatusCode        : 200
-StatusDescription : OK
-Content           : {"id":1,"nombre":"Cacao fino de aroma","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.ec"]},
-                    {"id":2,"nombre":"CACAO ORGANICO PREMIUM","categoria":"Cacao","precioUsd"... 
-RawContent        : HTTP/1.1 200 OK
-                    transfer-enconding: chuked
-                    Content-Type: application/json
-                    
-                    {"id":1,"nombre":"Cacao fino de aroma","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.e...
-Forms             : {}
-Headers           : {[transfer-enconding], [Content-Type, application/json]}
-Images            : {}
-InputFields       : {}
-Links             : {}
-ParsedHtml        : mshtml.HTMLDocumentClass
-RawContentLength  : enconding
+PS C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero> curl.exe http://localhost:8120/api/productos
+[{"id":1,"nombre":"CACAO FINO DE AROMA","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.ec"]},{"id":2,"nombre":"CACAO ORGÁNICO PREMIUM","categoria":"Cacao","precioUsd":145.00,"correosNotificacion":["exportaciones@agrosmart.ec","comercial@agrosmart.ec"]},{"id":3,"nombre":"CACAO NACIONAL SELECCIONADO","categoria":"Cacao","precioUsd":98.75,"correosNotificacion":["pedidos@agrosmart.ec"]}]
 
+PS C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero> curl.exe http://localhost:8120/api/productos/1
+{"id":1,"nombre":"Cacao fino de aroma","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.ec"]}
 
-GET /api/productos/1
-StatusCode        : 200
-StatusDescription : OK
-Content           : {"id":1,"nombre":"Cacao fino de aroma","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.ec"]}
-RawContent        : HTTP/1.1 200 OK
-                    Content-Length: 124
-                    Content-Type: application/json
-                    
-                    {"id":1,"nombre":"Cacao fino de aroma","categoria":"Cacao","precioUsd":120.50,"correosNotificacion":["ventas@agrosmart.ec"]}
-Forms             : {}
-Headers           : {[Content-Length, 124], [Content-Type, application/json]}
-Images            : {}
-InputFields       : {}
-Links             : {}
-ParsedHtml        : mshtml.HTMLDocumentClass
-RawContentLength  : 124
-
-GET /api/productos/9999
+PS C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero> curl.exe -i http://localhost:8120/api/productos/9999
 HTTP/1.1 404 Not Found
 Content-Type: application/json
 Content-Length: 132
 
-{"timestamp":"2026-07-31T16:55:42.672+00:00","path":"/api/productos/9999","status":404,"error":"Not Found","requestId":"8609dd78-3"}
+{"timestamp":"2026-07-31T22:52:19.970+00:00","path":"/api/productos/9999","status":404,"error":"Not Found","requestId":"6ad1ce34-3"}
 
-GET /api/agrosmart/publicidad
-StatusCode        : 200
-StatusDescription : OK
-Content           : "Descubre nuestro cacao fino de aroma: calidad excepcional para deleitar el paladar europeo."
-RawContent        : HTTP/1.1 200 OK
-                    Content-Length: 93
-                    Content-Type: text/plain;charset=UTF-8
-                    
-                    "Descubre nuestro cacao fino de aroma: calidad excepcional para deleitar el paladar europeo."
-Forms             : {}
-Headers           : {[Content-Length, 93], [Content-Type, text/plain;charset=UTF-8]}
-Images            : {}
-InputFields       : {}
-Links             : {}
-ParsedHtml        : mshtml.HTMLDocumentClass
-RawContentLength  : 93
-
+PS C:\ProgramacionAvanzada\ExamenFinal\agrosmart-final-rosero> curl.exe "http://localhost:8120/api/agrosmart/publicidad?producto=Cacao%20fino%20de%20aroma&audiencia=exportadores"
+"Descubre el sabor inigualable del cacao fino de aroma: tu aliado perfecto para exportar calidad."
 ```
 
 **6.2** ¿Cómo lograste que el id inexistente responda **404** y no 500?
