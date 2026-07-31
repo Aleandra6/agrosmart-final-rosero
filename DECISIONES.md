@@ -17,18 +17,18 @@
 
 ## Datos
 
-- **Nombre:**
-- **Cédula:**
-- **NN (dos últimos dígitos):**
-- **Categoría asignada (según el último dígito):**
+- **Nombre:** Ana Alejandra Rosero Chiluisa
+- **Cédula:** 1753348620
+- **NN (dos últimos dígitos):** 20
+- **Categoría asignada (según el último dígito):** Cacao
 
----
+--- 
 
 ## Fase 1 — Configuración y perfiles
 
 **1.1** ¿Qué archivo activa el perfil `prod` y qué línea exacta lo hace?
 
->
+> 
 
 **1.2** Pega la línea del log de arranque donde se ve tu puerto y el perfil activo.
 
